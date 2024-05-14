@@ -1,0 +1,23 @@
+{
+  "name": "task_app_backend",
+  "version": "1.0.0",
+  "description": "Task App Backend In Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=task_app_backend:* npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Avinash Barfa",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "jade": "^0.31.2",
+    "mongodb": "^6.6.1",
+    "mongosh": "^2.2.5",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.7",
+    "uuid": "^9.0.1"
+  }
+}
